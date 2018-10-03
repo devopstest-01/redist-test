@@ -1,4 +1,5 @@
 FROM redis
+FROM ubuntu:18.04
 
 # Copy config file
 COPY redis.conf /etc/redis/redis.conf
